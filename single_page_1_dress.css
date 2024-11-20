@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+    body{
+        font-family:'Poppins', Courier, monospace,sans-serif;
+        margin: 0;
+    }
+
+    .header{
+        display:grid;
+        grid-template-columns: 20% 60% 20%;
+        background-color: #fff;
+    }
+    
+    .logo{
+        width: 100%;
+        height: auto;
+    }
+    
+    .logo img{
+        align-items: center;
+        width: 70%;
+        height: auto;
+        margin: 10px 0px;
+       
+    }
+    #mainimg{
+        width: 360px;
+        height: auto;
+    }
+    
+    .navbar{
+        display:grid;
+        grid-template-columns: 15% 20% 20% 20% 15%;
+        margin-left: 15%;
+        align-items: center;
+    }
+    
+    .navbar a{
+        margin-left: 15px;
+        text-decoration: none;
+        color: black;
+    }
+
+    #shop{
+        width: 20%;
+        height: 20%;
+        margin-left: 55%;
+        margin-top: 7%;
+    }
+
+    .dropdwn{
+        color: black;
+        margin-left: 25%;
+        font-size: 19px;
+        border: none;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdwn-content{
+
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        z-index: 1;
+        margin-top: 2%;
+
+        background-repeat:no-repeat;
+        cursor:pointer;
+        outline:none;
+        border:none;
+        box-shadow:none; 
+        background-image: none;
+        backdrop-filter: blur(5px);
+        border-radius: 5%;
+        border-color: white;
+    }
+
+    .dropdwn-content a{
+        color: black;
+        padding: 18px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdwn-content a:hover {background-color: transparent;}
+
+    .dropdown:hover .dropdwn-content {display: block;}
+
+    .dropdown:hover .dropdwn {border-bottom: 2px solid black;}
+
+    .Dropdown {
+        margin: 0 auto;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        outline:none;
+        border:none;
+        box-shadow:none; 
+        background-image: none;
+        background-color: transparent;
+        background: transparent;
+        border-color: transparent;
+        
+    }
+    
+    .basket-trigger {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .basket-trigger span {
+        cursor: pointer;
+    }
+    
+    .basket-dropdown {
+        width: 100%;
+        height: 780%;
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        z-index: 1;
+    }
+
+    .basket-dropdown img{
+        width: 20%;
+        height: auto;
+    }
+    
+    h2 {
+        font-size: 20px;
+        margin: 0;
+    }
+    
+    #basket {
+        list-style: none;
+        padding: 0;
+    }
+    
+    li {
+        border-bottom: 1px solid #ccc;
+        margin: 10px 0;
+        padding: 10px;
+    }
+    
+    .total {
+        text-align: right;
+        font-size: 18px;
+        margin-top: 40%;
+        padding-right: 5px;
+        border-right: 2px solid black;
+    }
+    .basket-trigger:hover .basket-dropdown {
+        display: block;
+    }
+
+.main{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.productimg{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.selectimg{
+    width: 40%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.smallimg img:hover #mainimg img{
+  content: url(../images/testBack.png);
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 20% auto;
+}
+
+.rating{
+    margin-top: 4%;
+}
+
+.dropDown {
+    position: relative;
+    display: inline-block;
+    padding: 4% 10%;
+    border: 1px solid black;
+  }
+
+  span{
+    font-size: 20px;
+  }
+
+  .dropDown:hover{
+    border-bottom: 3px solid black;
+  }
+  
+  .dropDown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 85%;
+    box-shadow: 2px 8px 16px 2px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    margin-left: -22%;
+    margin-top: 9%;
+  }
+
+  .content:hover{
+    border-bottom: 1px solid black;
+  }
+  
+  .dropDown:hover .dropDown-content {
+    display: block;
+}
+
+button{
+    padding: 5% 15.3%;
+    background-color: black;
+    color: white;
+    margin-top: 4%;
+    border: none;
+    font-size: 20px;
+}
+
+button:active{
+    transform: scale(0.94); 
+    box-shadow: 5px 4px 8px 4px rgba(0, 0, 0, 0.24); 
+}
+
+button:hover{
+    transform: translate(5px, 6px);
+}
+  
+.footer{
+    background-color: #727070;
+}
+
+.company{
+    margin-top: 20%;
+    width: 100%;
+    height: auto;
+}
+
+.company img{
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer h2,.footer p{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color:#727070;
+}
+

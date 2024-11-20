@@ -1,0 +1,68 @@
+.h1{
+    text-align: center;
+    font-size: 60px;
+}
+.img1{
+    float: right;
+}
+.items{
+    width: 220px;
+    height: 300px;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+
+.mainimg img{
+    width: 100px;
+    height: auto;
+}
+
+
+
+.first{
+    text-align: center;
+    
+}
+.footer{
+    background-color: #727070;
+}
+
+.company{
+    margin-top: 20%;
+    width: 100%;
+    height: auto;
+}
+
+.company img{
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer h2,.footer p{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color:#727070;
+}
