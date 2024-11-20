@@ -1,0 +1,232 @@
+.header{
+    display:grid;
+    grid-template-columns: 25% 55% 20%;
+    background-color: #fff;
+}
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
+.logo img{
+    align-items: center;
+    width: 70%;
+    height: auto;
+    margin: 10px 0px;
+   
+}
+
+
+.mainmg {
+    width: 200px;
+    
+}
+
+
+
+.navbar{
+    display:grid;
+    grid-template-columns: 15% 20% 20% 20% 15%;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.navbar a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+#shop{
+    width: 20%;
+    height: 20%;
+    margin-left: 55%;
+    margin-top: 7%;
+}
+
+.dropdwn{
+    color: black;
+    margin-left: 25%;
+    font-size: 19px;
+    border: none;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdwn-content{
+
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    margin-top: 5%;
+
+    background-repeat:no-repeat;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    box-shadow:none; 
+    background-image: none;
+    backdrop-filter: blur(8px);
+    border-radius: 5%;
+    border-color: white;
+}
+
+.dropdwn-content a{
+    color: white;
+    padding: 18px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdwn-content a:hover {background-color: transparent;}
+
+.dropdown:hover .dropdwn-content {display: block;}
+
+.dropdown:hover .dropdwn {border-bottom: 2px solid black;}
+
+.Dropdown {
+    margin: 0 auto;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    outline:none;
+    border:none;
+    box-shadow:none; 
+    background-image: none;
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+    
+}
+
+.basket-trigger {
+    position: relative;
+    display: inline-block;
+}
+
+.basket-trigger span {
+    cursor: pointer;
+}
+
+.basket-dropdown {
+    width: 100%;
+    height: 780%;
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    z-index: 1;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#basket {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.total {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 98%;
+    padding-right: 5px;
+    border-right: 2px solid black;
+}
+.basket-trigger:hover .basket-dropdown {
+    display: block;
+}
+
+
+.hh{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 50px;
+    margin-top: -15px;
+}
+#clothes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 35px;
+} 
+    
+#img1{
+    width: 100%;
+    height: 470px;
+    margin-bottom: 60px;
+}
+.first{
+    text-align: center;
+    
+}
+
+.items{
+    width: 220px;
+    height: 300px;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+.footer{
+    background-color: #727070;
+}
+
+.company{
+    margin-top: 20%;
+    width: 100%;
+    height: auto;
+}
+
+.company img{
+    width: 100%;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer h2,.footer p{
+    color: white;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    background-color:#727070;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
